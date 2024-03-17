@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+    <style>
+      #paavai {
+        height: 1000px;
+        float: left;
+        background-color: black;
+    }
+      p{ text-align: justify;
+         background-color: antiquewhite;}
+         body{ background-color: rgb(83, 221, 214);}
+         img{ width: 500px;
+        height: 500px;}
+    </style>
+</head>
+<body>
+    <h1> this is my first project</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore, quasi soluta rerum architecto
+         natus quae? Unde dicta consectetur quibusdam voluptatum, aliquid aliquam cum voluptates harum 
+         nulla nobis amet expedita.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat molestias nostrum, 
+        perspiciatis neque magni? Perspiciatis provident ipsa accusantium praesentium
+        repellat. Beatae libero voluptas quae magni omnis nisi magnam nemo!</p>
+        <img src="{% static 'images/temple image.jpg' %}" alt="temple image">
+        <p id="paavai"><img src="{% static 'images/paavai outline image.jpeg' %}" alt="paavai outline image.jpeg"></p>
+        
+</body>
+</html>
